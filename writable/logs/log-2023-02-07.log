@@ -1,0 +1,119 @@
+CRITICAL - 2023-02-07 15:22:11 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in /var/www/html/wsh_news_app/app/Config/Routes.php on line 34
+in SYSTEMPATH/Router/RouteCollection.php on line 912.
+ 1 APPPATH/Config/Routes.php(34): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH/Router/RouteCollection.php(266): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 15:22:34 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in /var/www/html/wsh_news_app/app/Config/Routes.php on line 34
+in SYSTEMPATH/Router/RouteCollection.php on line 912.
+ 1 APPPATH/Config/Routes.php(34): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH/Router/RouteCollection.php(266): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 15:29:20 --> Declaration of App\Filters\BasicAuthFilter::before(App\Filters\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH/Filters/BasicAuthFilter.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-07 15:31:03 --> Declaration of App\Filters\BasicAuthFilter::before(App\Filters\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH/Filters/BasicAuthFilter.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-07 15:32:42 --> Declaration of App\Filters\BasicAuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in APPPATH/Filters/BasicAuthFilter.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-07 15:36:21 --> Undefined property: App\Filters\BasicAuthFilter::$response
+in SYSTEMPATH/API/ResponseTrait.php on line 332.
+ 1 SYSTEMPATH/API/ResponseTrait.php(332): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/API/ResponseTrait.php(99): App\Filters\BasicAuthFilter->format()
+ 3 APPPATH/Filters/BasicAuthFilter.php(20): App\Filters\BasicAuthFilter->respond()
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\BasicAuthFilter->before()
+ 5 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 15:41:03 --> Undefined property: App\Filters\BasicAuthFilter::$response
+in APPPATH/Filters/BasicAuthFilter.php on line 17.
+ 1 APPPATH/Filters/BasicAuthFilter.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\BasicAuthFilter->before()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 15:45:54 --> Use of undefined constant password - assumed 'password' (this will throw an Error in a future version of PHP)
+in APPPATH/Filters/BasicAuthFilter.php on line 24.
+ 1 APPPATH/Filters/BasicAuthFilter.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\BasicAuthFilter->before()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 16:46:05 --> Call to undefined function App\Controllers\getPosts()
+in APPPATH/Controllers/Posts.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Posts->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 17:11:01 --> Call to undefined function get_instance()
+in APPPATH/Helpers/my_helper.php on line 5.
+ 1 APPPATH/Controllers/Posts.php(17): getPosts()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Posts->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 17:13:51 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Posts.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Posts->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-07 17:14:36 --> mysqli_sql_exception: Column 'image' cannot be null in /var/www/html/wsh_news_app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/html/wsh_news_app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/html/wsh_news_app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/wsh_news_app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/wsh_news_app/system/Database/BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/wsh_news_app/system/Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/wsh_news_app/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/html/wsh_news_app/system/Model.php(729): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/wsh_news_app/app/Controllers/Posts.php(56): CodeIgniter\Model->insert()
+#8 /var/www/html/wsh_news_app/system/CodeIgniter.php(934): App\Controllers\Posts->index()
+#9 /var/www/html/wsh_news_app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/wsh_news_app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/wsh_news_app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-07 17:14:36 --> Column 'image' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Posts.php(56): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Posts->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-07 17:15:17 --> mysqli_sql_exception: Column 'author' cannot be null in /var/www/html/wsh_news_app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/html/wsh_news_app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/html/wsh_news_app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/wsh_news_app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/wsh_news_app/system/Database/BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/wsh_news_app/system/Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/wsh_news_app/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/html/wsh_news_app/system/Model.php(729): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/wsh_news_app/app/Controllers/Posts.php(56): CodeIgniter\Model->insert()
+#8 /var/www/html/wsh_news_app/system/CodeIgniter.php(934): App\Controllers\Posts->index()
+#9 /var/www/html/wsh_news_app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/wsh_news_app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/wsh_news_app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-07 17:15:17 --> Column 'author' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Posts.php(56): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Posts->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
